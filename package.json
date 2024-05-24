@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "directories": {
+    "test": "mocha tests/test_app.js"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0",
+    "supertest": "^7.0.0"
+  },
+  "scripts": {
+    "test": "mocha tests/test_app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
